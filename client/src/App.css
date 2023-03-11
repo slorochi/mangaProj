@@ -30,7 +30,7 @@ body{
 
 .mangasCard{
   background:dodgerBlue; 
-  text-align:center;color:white;font-weight:600;font-size:16px;cursor:pointer;height:280px;display: flex;flex-direction:column;;
+  text-align:center;color:white;font-weight:600;font-size:16px;cursor:pointer;height:245px;display: flex;flex-direction:column;;
   width:100%;
   background:url("../public/manga.jpg");
   background-position:center ;
@@ -50,17 +50,19 @@ body{
 
 }
 .description{
-  color:rgba(190, 190, 190, 0.6);
-  font-size: 15px;
-  padding:20px 40px 20px 40px;
-  font-weight:400;
-  max-height: 100;
+  color:rgba(190, 190, 190, 0.1);
+  font-size: 13px;
+  font-weight:300;
+  max-height: 103px;
+  line-height: 0.9rem;
   overflow: hidden;
+  padding-bottom: 3px;
   font-style: italic;
+  text-overflow: ellipsis;
 }
 .mangasCard:hover .description{
-  text-shadow:#000000 0px 0px 2px,#181515 0px 0px 4px,#000000 0px 0px 6px,#000000 0px 0px 12px;;
-  color:rgb(255, 255, 255);
+  text-shadow:#000000 0px 0px 2px,#181515 0px 0px 4px,#000000 0px 0px 6px;;
+  color:rgba(253, 253, 253, 0.945);
   transition:0.20s ease-in-out;
 }
 .mangaCarousel{

@@ -23,7 +23,8 @@ function CreateMangas () {
     console.log('Failed:', errorInfo);
   };
   return (
-    <div style={{display:'flex', justifyContent:'center'}}>
+    <div className="flex-col items-center" style={{display:'flex', justifyContent:'center'}}>
+      <h1>Ajouter un manga</h1>
     <Form
     style={{width:'600px', marginTop:'20px'}}
       name="basic"
@@ -31,7 +32,7 @@ function CreateMangas () {
         span: 6,
       }}
       wrapperCol={{
-        span: 16,
+        span: 18,
       }}
       initialValues={{
         remember: true,
